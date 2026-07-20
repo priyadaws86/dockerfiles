@@ -1,4 +1,4 @@
-#ARG VERSION
+ARG VERSION
 FROM almalinux:${VERSION:-9}
 ARG COURSE="Docker" \
     TRAINER="Siva" \
