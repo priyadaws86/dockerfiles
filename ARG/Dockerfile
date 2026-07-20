@@ -2,8 +2,7 @@ ARG VERSION
 FROM almalinux:${VERSION:-9}
 ARG COURSE="Docker" \
     TRAINER="Siva" \
-    DURATION="10HRS" \
-    VERSION="10"
+    DURATION="10HRS"
 RUN echo "Trainer ${TRAINER}, Course ${COURSE}, Version: ${VERSION}"
 
 CMD ["sleep", "1000"]
